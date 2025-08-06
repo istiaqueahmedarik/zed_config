@@ -7,15 +7,18 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "languages": {
+    "C++": {
+      "show_edit_predictions": false
+    }
+  },
   "minimap": {
     "show": "never"
   },
   "cursor_blink": true,
   "autosave": "on_focus_change",
   "file_types": {
-    "html": [
-      "*html"
-    ]
+    "html": ["*html"]
   },
   "auto_indent_on_paste": true,
   "use_on_type_format": true,
@@ -41,7 +44,7 @@
     "env": {
       "PATH": "/bin:/usr/bin:${env:PATH}"
     },
-    "font_family": "monospace",
+    "font_family": "JetBrainsMono Nerd Font Mono",
     "font_size": 16.0,
     "dock": "right"
   },
